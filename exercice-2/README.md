@@ -46,4 +46,4 @@ dis-le simplement dans ton README — c'est mieux que de faire comme si de rien 
 ## Ce qui n'est pas demandé
 
 Pas d'authentification, pas de front-end, pas de déploiement, pas de Docker, pas de tests automatisés.
-**Cinq routes qui font exactement ce qu'elles annoncent, c'est tout ce que je veux voir.**
+**Cinq routes qui font exactement ce qu'elles annoncent, c'est tout ce que nous voulons voir.**

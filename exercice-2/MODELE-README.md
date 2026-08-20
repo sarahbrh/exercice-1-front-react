@@ -2,7 +2,7 @@
 
 > Squelette du README à livrer avec ton API. Remplis chaque section, supprime les commentaires
 > entre parenthèses, et renomme ce fichier en `README.md` dans ton dépôt.
-> Je dois pouvoir cloner ton projet et le faire tourner **sans te poser une seule question**.
+> On doit pouvoir cloner ton projet et le faire tourner **sans te poser une seule question**.
 
 ## Prérequis
 

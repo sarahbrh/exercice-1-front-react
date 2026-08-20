@@ -8,7 +8,7 @@
 |---|---|
 | `Exercice-1-Front-React.pdf` | L'énoncé complet, les consignes et les critères d'évaluation |
 | `app-a-reparer/` | **L'application à réparer** — c'est ton point de départ |
-| `MODELE-FIX.md` | Le squelette du `FIX.md` que tu dois me rendre |
+| `MODELE-FIX.md` | Le squelette du `FIX.md` que tu dois rendre |
 
 ## Démarrage
 
