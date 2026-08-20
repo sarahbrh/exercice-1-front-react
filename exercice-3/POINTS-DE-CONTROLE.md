@@ -1,4 +1,4 @@
-# Points de contrôle — exercice 3
+# Points de contrôle - exercice 3
 
 À passer en revue **avant** d'ouvrir ta Pull Request. Coche ce qui est fait, et note franchement
 ce qui ne l'est pas : un point non traité mais signalé vaut mieux qu'un point non traité et caché.
@@ -14,7 +14,7 @@ ce qui ne l'est pas : un point non traité mais signalé vaut mieux qu'un point 
 
 ## Le comportement quand ça se passe mal
 
-- [ ] Pendant le chargement initial, l'utilisateur voit un indicateur — pas une page vide
+- [ ] Pendant le chargement initial, l'utilisateur voit un indicateur, pas une page vide
 - [ ] **Serveur éteint + rechargement de la page** → message d'erreur lisible, aucune page blanche
 - [ ] Une action qui échoue (serveur coupé en cours d'utilisation) ne casse pas l'affichage
 - [ ] Aucune erreur rouge non gérée dans la console du navigateur

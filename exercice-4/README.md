@@ -1,9 +1,9 @@
-# Exercice 4 — Traiter une demande client · **BONUS**
+# Exercice 4 - Traiter une demande client · **BONUS**
 
 📄 **Lis d'abord l'énoncé complet : [`Exercice-4-Ticket-Client.pdf`](Exercice-4-Ticket-Client.pdf)**
 
 > **Exercice facultatif.** Ne t'y attaque que si les exercices 1 et 2 sont terminés et rendus.
-> Pas de date imposée — préviens-nous simplement si tu le fais.
+> Pas de date imposée : préviens-nous simplement si tu le fais.
 
 ## Contenu de ce dossier
 
@@ -22,15 +22,15 @@ l'une avec l'autre. Ton travail est de le transformer en travail exploitable.
 
 Quatre parties à rendre dans un seul fichier `REPONSE.md` :
 
-1. **Les questions** que tu poses avant de toucher au code — et pourquoi tu en as besoin
+1. **Les questions** que tu poses avant de toucher au code, et pourquoi tu en as besoin
 2. **Les hypothèses** sous lesquelles tu travailles, faute de réponse immédiate
-3. **Ton plan d'action** — par où tu commences et ce que tu cherches à chaque étape
+3. **Ton plan d'action** : par où tu commences et ce que tu cherches à chaque étape
 4. **Le message que tu renvoies au client**, rédigé, prêt à envoyer
 
 ## Pourquoi cet exercice existe
 
 Un client ne t'envoie jamais une spécification. Savoir poser les bonnes questions avant d'ouvrir
-l'éditeur fait gagner plus de temps que n'importe quelle astuce technique — et c'est la compétence
+l'éditeur fait gagner plus de temps que n'importe quelle astuce technique, et c'est la compétence
 que les écoles n'enseignent pas.
 
 Il n'y a pas de bonne réponse technique attendue : tu n'as ni le code, ni les accès, ni la moindre

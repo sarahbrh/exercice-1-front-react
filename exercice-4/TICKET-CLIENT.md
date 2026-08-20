@@ -1,6 +1,6 @@
 # Message reçu
 
-> **De :** Client — site e-commerce
+> **De :** Client (site e-commerce)
 > **Objet :** Problème site
 > **Reçu :** un mardi, 17h42
 

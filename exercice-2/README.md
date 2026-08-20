@@ -1,4 +1,4 @@
-# Exercice 2 — Construire une API de signalement de bugs
+# Exercice 2 - Construire une API de signalement de bugs
 
 📄 **Lis d'abord l'énoncé complet : [`Exercice-2-Back-API.pdf`](Exercice-2-Back-API.pdf)**
 
@@ -41,7 +41,7 @@ Le script appelle tes routes et compare le code HTTP obtenu à celui attendu.
 **Ce script n'est pas une note.** Il ne teste que les cas les plus évidents, et il ne vérifie ni la
 qualité de ton code, ni ton README, ni tes commits. Il est là pour t'éviter de me livrer une API
 qui plante au premier appel. Si un test échoue et que tu n'as pas le temps de le corriger,
-dis-le simplement dans ton README — c'est mieux que de faire comme si de rien n'était.
+dis-le simplement dans ton README : c'est mieux que de faire comme si de rien n'était.
 
 ## Ce qui n'est pas demandé
 

@@ -1,4 +1,4 @@
-# Réponse — demande client
+# Réponse - demande client
 
 > Squelette du `REPONSE.md` à rendre. Remplis les quatre parties, supprime les commentaires
 > entre parenthèses. Aucun code n'est attendu.
@@ -33,7 +33,7 @@ corriger s'il les lit.)
 ## 3. Mon plan d'action
 
 (Par où tu commences, dans quel ordre, et **ce que tu cherches** à chaque étape. On ne cherche pas la
-bonne réponse technique — tu n'as ni le code ni les accès. On cherche une méthode.)
+bonne réponse technique : tu n'as ni le code ni les accès. On cherche une méthode.)
 
 1. ...
 2. ...
@@ -46,7 +46,7 @@ bonne réponse technique — tu n'as ni le code ni les accès. On cherche une m�
 ## 4. Le message que je renvoie au client
 
 (Rédigé, prêt à envoyer. Quelques lignes. Compréhensible par quelqu'un qui n'est pas technique.
-Il doit traiter la question du délai — et le message contient **deux demandes très différentes**,
+Il doit traiter la question du délai, et le message contient **deux demandes très différentes**,
 à toi de voir ce que tu en fais.)
 
 > Bonjour,
@@ -55,7 +55,7 @@ Il doit traiter la question du délai — et le message contient **deux demandes
 
 ---
 
-## Bonus — causes techniques que je jugerais probables
+## Bonus - causes techniques que je jugerais probables
 
 (Facultatif. Pour une page blanche apparue après une mise en production : qu'est-ce qui pourrait
 la provoquer, et comment vérifierais-tu chaque piste ?)

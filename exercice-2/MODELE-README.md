@@ -38,7 +38,7 @@ L'API écoute sur `http://localhost:3000`.
 
 **Choix retenu :** (PostgreSQL ou SQLite)
 
-**Pourquoi :** (deux phrases suffisent — c'est le raisonnement qui m'intéresse, pas la réponse)
+**Pourquoi :** (deux phrases suffisent : c'est le raisonnement qui nous intéresse, pas la réponse)
 
 (Comment créer la table : script, commande, migration...)
 
@@ -81,7 +81,7 @@ curl -X DELETE http://localhost:3000/bugs/1
 
 ## Codes HTTP renvoyés
 
-(Liste les codes que ton API renvoie et dans quels cas — c'est un critère d'évaluation)
+(Liste les codes que ton API renvoie et dans quels cas : c'est un critère d'évaluation)
 
 | Code | Quand |
 |---|---|
@@ -91,7 +91,7 @@ curl -X DELETE http://localhost:3000/bugs/1
 
 ## Ce que je n'ai pas réussi
 
-(Sois franche ici, ça compte en ta faveur — pas contre toi.)
+(Sois franche ici, ça compte en ta faveur, pas contre toi.)
 
 ## Temps passé
 
