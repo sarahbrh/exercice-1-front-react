@@ -1,0 +1,116 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #22262b;
+  background: #f6f7f9;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.app {
+  max-width: 34rem;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #e2e6ea;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.entete {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-bottom: 1px solid #e2e6ea;
+  padding-bottom: 0.75rem;
+}
+
+.entete h1 {
+  font-size: 1.35rem;
+  margin: 0;
+}
+
+.chrono {
+  font-size: 0.8rem;
+  color: #6b7480;
+}
+
+.formulaire {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1.25rem 0;
+}
+
+.formulaire input {
+  flex: 1;
+  padding: 0.5rem 0.65rem;
+  font: inherit;
+  border: 1px solid #ccd3da;
+  border-radius: 6px;
+}
+
+.formulaire button {
+  padding: 0.5rem 1rem;
+  font: inherit;
+  color: #fff;
+  background: #1f5f8b;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tache {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.tache label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+}
+
+.tache.terminee span {
+  color: #9aa3ad;
+  text-decoration: line-through;
+}
+
+.supprimer {
+  color: #9aa3ad;
+  background: none;
+  border: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 0.35rem;
+}
+
+.supprimer:hover {
+  color: #c0392b;
+}
+
+.vide {
+  color: #6b7480;
+  font-style: italic;
+}
+
+.compteur {
+  margin: 1.25rem 0 0;
+  padding-top: 0.85rem;
+  border-top: 1px solid #e2e6ea;
+  font-size: 0.9rem;
+  color: #6b7480;
+}
