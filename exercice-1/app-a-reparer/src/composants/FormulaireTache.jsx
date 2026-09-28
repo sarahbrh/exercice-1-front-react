@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 export default function FormulaireTache({ onAjouter }) {
-  const [titre, setTitre] = useState('')
+  const [titre, setTitre] = useState("");
 
   function envoyer(e) {
-    if (titre.trim() === '') {
-      return
+    e.preventDefault();
+    if (titre.trim() === "") {
+      return;
     }
-    onAjouter(titre.trim())
-    setTitre('')
+    onAjouter(titre.trim());
+    setTitre("");
   }
 
   return (
@@ -21,5 +22,5 @@ export default function FormulaireTache({ onAjouter }) {
       />
       <button type="submit">Ajouter</button>
     </form>
-  )
+  );
 }

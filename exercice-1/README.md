@@ -1,18 +1,6 @@
 # Exercice 1 - Réparer une application React
 
-📄 **Lis d'abord l'énoncé complet : [`Exercice-1-Front-React.pdf`](Exercice-1-Front-React.pdf)**
-
-## Contenu de ce dossier
-
-| Fichier | Rôle |
-|---|---|
-| `Exercice-1-Front-React.pdf` | L'énoncé complet, les consignes et les critères d'évaluation |
-| `app-a-reparer/` | **L'application à réparer**, c'est ton point de départ |
-| `MODELE-FIX.md` | Le squelette du `FIX.md` que tu dois rendre |
-
-## Démarrage
-
-Copie le dossier `app-a-reparer/` dans **ton propre dépôt GitHub**, puis :
+## Lancer le projet
 
 ```bash
 cd app-a-reparer
@@ -20,21 +8,26 @@ npm install
 npm run dev
 ```
 
-Ouvre l'adresse affichée dans ton navigateur (par défaut `http://localhost:5173`).
+Puis ouvrir l'adresse affichée dans le terminal (par défaut `http://localhost:5173`) dans le navigateur.
 
-## En résumé
+## Ce que j'ai fait
 
-L'application fonctionne mal : **elle contient exactement 5 bugs**.
+J'ai utilisé l'application comme un utilisateur normal (ajout, suppression, coche des tâches). Certains bugs ont été repérés par déduction du comportement anormal (compteur faux, case qui ne réagit pas, etc.), d'autres grâce à des messages dans la console du navigateur (warning React sur la `key` manquante, erreur JS). Le détail de chaque bug (symptôme, cause, correction) se trouve dans `FIX.md`.
 
-1. Utilise-la comme le ferait un utilisateur et repère les 5 comportements anormaux.
-2. Ouvre la **console du navigateur** : elle parle.
-3. Corrige-les, avec **un commit par bug**.
-4. Remplis le `FIX.md` à partir de `MODELE-FIX.md`.
+Bugs corrigés (un commit par bug) :
 
-Le `FIX.md` est la partie la plus importante de l'exercice. Trouver un bug par hasard et le trouver
-parce qu'on a compris le problème, ce n'est pas la même chose, et ça se voit dans l'explication.
+- Le compteur de tâches restantes affichait un mauvais chiffre
+- Une mauvaise tâche se retrouvait cochée après suppression d'une autre (key manquante)
+- Impossible de cocher/décocher une tâche (mutation directe du state)
+- La page se rechargeait en ajoutant une tâche (preventDefault manquant)
+- Le chronomètre ne s'arrêtait jamais proprement (fuite mémoire)
 
-## Ce qui n'est pas demandé
+Je me suis aidée de Claude pour comprendre le fonctionnement de React (props `key`, immutabilité du state, `useEffect`) et localiser les fichiers concernés par chaque bug.
 
-Pas de refonte graphique, pas de bibliothèque supplémentaire, pas de tests, pas de déploiement.
-**Ne réécris pas l'application : répare-la.**
+## Ce que je n'ai pas réussi
+
+Le bonus (filtre toutes / en cours / terminées) n'a pas été fait.
+
+## Temps passé
+
+Environ 3h.
